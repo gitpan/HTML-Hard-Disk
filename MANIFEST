@@ -1,0 +1,7 @@
+MANIFEST
+README
+COPYING
+Makefile.PL
+lib/HTML/Hard/Disk.pm
+html-to-hd
+t/use.t
