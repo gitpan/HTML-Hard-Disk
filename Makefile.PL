@@ -5,6 +5,10 @@ WriteMakefile(
     'DISTNAME' => "HTML-Hard-Disk",
     'EXE_FILES' => ["html-to-hd"],
     'VERSION_FROM' => "lib/HTML/Hard/Disk.pm",
+    'PREREQ_PM' =>
+        {
+            'HTML::Parser' => 0,
+        },
     );
 
 
